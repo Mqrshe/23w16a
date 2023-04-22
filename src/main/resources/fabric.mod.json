@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wa",
+  "version": "${version}",
+  "name": "23w16a",
+  "description": "Since 23w16a was released it added chunk loading fixes and also lighting fixes. So I'm making a basic mod to even more improve minecraft.",
+  "authors": [
+    "Mqrshie"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/23w16a/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.snapshot.mod.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "wa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*"
+  }
+}
